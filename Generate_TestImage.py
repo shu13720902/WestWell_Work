@@ -94,7 +94,7 @@ def _Generate_TestIamge_(Inputted_number,pathway):
     
     
     # The number of the number or letter you want to input: Num
-    Num=Inputted_number    
+    Num=Inputted_number-1    
      
     # The Path_Way you can Change: matfn
 #    matfn=str('F:\\WestWellWork\\NISTMatlabAll\\')
