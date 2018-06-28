@@ -20,7 +20,7 @@ from scipy.misc import imsave
 from Generate_TestImage import _Generate_TestIamge_
 
 Inputted_number=20;
-NISTdataset_Path=str('F:\\WestWellWork\\NISTMatlabAll\\')
+NISTdataset_Path=str('\\NISTMatlabAll\\')
 Test_Image=_Generate_TestIamge_(Inputted_number,NISTdataset_Path)
 
 image_name=NISTdataset_Path+'test_number'+str(Inputted_number)+'.jpg'
